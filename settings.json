@@ -1,0 +1,184 @@
+{
+  "window.commandCenter": 1,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorTheme": "Default Dark Modern",
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.suggestSmartCommit": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.allowForcePush": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "stripe.cliInstallPath": "C:\\Users\\aabas\\stripe-cli\\stripe.exe",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "ms-ossdata.vscode-postgresql"
+  },
+  "biome.lspBin": "",
+  "biome.requireConfiguration": false,
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#05ef3c"
+  },
+  "explorer.compactFolders": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cursor.cpp.disabledLanguages": [
+    "scminput",
+    "typescriptreact",
+    "typescript",
+    "shellscript"
+  ],
+  "http.proxyAuthorization": null,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "redhat.telemetry.enabled": false,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "graphite.commandPath": "C:\\Users\\aabas\\AppData\\Roaming\\npm\\gt",
+  "turbo.path": "C:\\Users\\aabas\\AppData\\Local\\pnpm\\turbo.ps1",
+  "editor.tabSize": 2,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "vim.leader": "<Space>",
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-v>": false,
+    "<C-w>": false,
+    "<C-x>": false
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#a9dc7660",
+  "vim.highlightedyank.duration": 250,
+  "vim.smartRelativeLine": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // NAVIGATION
+    // switch b/w buffers
+    {
+      "before": ["<S-h>"],
+      "commands": [":bprevious"]
+    },
+    {
+      "before": ["<S-l>"],
+      "commands": [":bnext"]
+    },
+    // splits
+    {
+      "before": ["leader", "v"],
+      "commands": [":vsplit"]
+    },
+    {
+      "before": ["leader", "s"],
+      "commands": [":split"]
+    },
+    // NICE TO HAVE
+    {
+      "before": ["leader", "w"],
+      "commands": [":w!"]
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["leader", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["leader", "p"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["g", "p", "d"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "p", "i"],
+      "commands": ["editor.action.peekImplementation"]
+    },
+    {
+      "before": ["g", "q"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["g", "t"],
+      "commands": ["editor.action.goToTypeDefinition"]
+    },
+    {
+      "before": ["g", "p", "t"],
+      "commands": ["editor.action.peekTypeDefinition"]
+    }
+  ],
+  "vim.targets.smartQuotes.breakThroughLines": false,
+  "vim.useSystemClipboard": true,
+  "editor.cursorSurroundingLines": 8,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - Page",
+    "**/app/**/layout.tsx": "${dirname} - Layout",
+    "**/component/**/index.tsx": "${dirname} - Component"
+  },
+  "zig.initialSetupDone": true,
+  "zig.zls.additionalOptions": {},
+  "zig.path": "zig",
+  "zig.zls.path": "c:\\Users\\aabas\\AppData\\Roaming\\Cursor\\User\\globalStorage\\ziglang.vscode-zig\\zls_install\\zls.exe",
+  "vim.insertModeKeyBindings": [],
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.smoothScrolling": true
+}
