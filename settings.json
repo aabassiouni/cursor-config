@@ -5,11 +5,11 @@
   "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "git.suggestSmartCommit": false,
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "git.allowForcePush": true,
   "github.copilot.enable": {
@@ -20,7 +20,7 @@
   },
   "stripe.cliInstallPath": "C:\\Users\\aabas\\stripe-cli\\stripe.exe",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
@@ -39,12 +39,12 @@
     "editor.defaultFormatter": "ms-ossdata.vscode-postgresql"
   },
   "biome.lspBin": "",
-  "biome.requireConfiguration": false,
+  "biome.requireConfiguration": true,
   "workbench.tree.enableStickyScroll": true,
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
   "workbench.colorCustomizations": {
-    "tree.indentGuidesStroke": "#05ef3c"
+    "tree.indentGuidesStroke": "#4be7ae"
   },
   "explorer.compactFolders": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -106,6 +106,23 @@
     {
       "before": ["leader", "s"],
       "commands": [":split"]
+    },
+    // panes
+    {
+      "before": ["leader", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["leader", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["leader", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["leader", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
     },
     // NICE TO HAVE
     {
@@ -180,5 +197,5 @@
   "zig.zls.path": "c:\\Users\\aabas\\AppData\\Roaming\\Cursor\\User\\globalStorage\\ziglang.vscode-zig\\zls_install\\zls.exe",
   "vim.insertModeKeyBindings": [],
   "editor.cursorSmoothCaretAnimation": "explicit",
-  "editor.smoothScrolling": true
+  "editor.smoothScrolling": true,
 }
